@@ -1,7 +1,5 @@
 $(document).ready(function(){
-	$('#controller').hover(function(){
-		$('#controlloer').fadeTo('fast',1);
-	});
+	
 	$('.button').hover(function(){
 		$('.button').fadeIn('fast');
 	});
@@ -24,4 +22,6 @@ $(document).ready(function(){
 	});$('#out-btn').click(function(){
 		$('#player').fadeOut('slow');
 	});
+	
+	
 });

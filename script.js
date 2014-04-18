@@ -23,7 +23,7 @@ $(document).ready(function(){
 		$('#player').effect('bounce',{time:3},600)
 	});
 	
-	$('div').hover(
+	$('.button').hover(
     		function(){
         		$(this).addClass('active');
     		},

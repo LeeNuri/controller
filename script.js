@@ -24,6 +24,6 @@ $(document).ready(function(){
 	});
 	
 	$('#controller').dblclick(function(){
-		$('#controller').draggable();
+		$(this).draggable();
 	});
 });

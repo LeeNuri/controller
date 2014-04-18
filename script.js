@@ -23,5 +23,7 @@ $(document).ready(function(){
 		$('#player').fadeOut('slow');
 	});
 	
-	
+	$('#controller').dblclick(function(){
+		$('#controller').draggable();
+	});
 });

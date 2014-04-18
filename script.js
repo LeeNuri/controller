@@ -1,9 +1,5 @@
 $(document).ready(function(){
 	
-	$('.button').hover(function(){
-		$('.button').fadeIn('fast');
-	});
-	
 	$('#up-btn').click(function(){
 		$('#player').animate({top:'-=100px'},500);
 	});
@@ -23,7 +19,5 @@ $(document).ready(function(){
 		$('#player').fadeOut('slow');
 	});
 	
-	$('#controller').dblclick(function(){
-		$(this).draggable();
-	});
+	
 });

@@ -19,5 +19,8 @@ $(document).ready(function(){
 		$('#player').fadeOut('slow');
 	});
 	
+	$('#bounce-btn').click(function(){
+		$('#player').effect('bounce',{time:3},600)
+	});
 	
 });

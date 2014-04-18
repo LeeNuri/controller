@@ -3,4 +3,4 @@ controller
 
 A skeleton for "controller" project
 
-[Live Demo](http://lectureixdl.github.io/controller)
+[Demo](http://leenuri.github.io/controller)

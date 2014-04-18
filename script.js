@@ -23,4 +23,5 @@ $(document).ready(function(){
 		$('#player').effect('bounce',{time:3},600)
 	});
 	
+	$('#controller').draggable();
 });

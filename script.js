@@ -23,5 +23,12 @@ $(document).ready(function(){
 		$('#player').effect('bounce',{time:3},600)
 	});
 	
-	$('#controller').draggable();
+	$('div').hover(
+    		function(){
+        		$(this).addClass('active');
+    		},
+    		function(){
+        		$(this).removeClass('active');
+		}
+  );
 });
